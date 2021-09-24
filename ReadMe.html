@@ -1,0 +1,34 @@
+<h1 id="purpose">Purpose:</h1>
+<ul>
+<li>A quick refresher for publishing MERN apps on AWS.</li>
+<li>A single-page app that allows an authenticated user to create a todo list.</li>
+</ul>
+<h1 id="objectives-issues">Objectives &amp; Issues:</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+Server provides app at LocalHost:3000<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+Build with webpack<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Breaking changes in webpack 5:<ul>
+<li>(pass) reverted to webpack 4.8</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+Webpack builds bundle.js, but is not running in watch mode: * (fail) changed “react-dev”: “webpack -d –watch” to “webpack -d -w”. This does not change anything. * (pass) in webpack.config.js, add watch:true to the config object. this is causing webpack to persist, but I am unsure if webpack is being notified of changes –&gt; it is in App.jsx, but not for index.html * (n/a) in package.json, run the –progress option to verify if webpack is being notified of changes. This just adds a loading bar to the build proecess. * (likely non-issue) webpack rebuilds for changes in App.jsx, but not for index.html?</li>
+</ul></li>
+<li><input type="checkbox" disabled="" />
+Start server</li>
+<li><input type="checkbox" disabled="" />
+Verify with PostMan</li>
+</ul></li>
+<li><input type="checkbox" disabled="" />
+Front-End Prototype</li>
+<li><input type="checkbox" disabled="" />
+Back-End MVP</li>
+<li><input type="checkbox" disabled="" />
+Front-End MVP</li>
+<li><input type="checkbox" disabled="" />
+Authentication</li>
+<li><input type="checkbox" disabled="" />
+AWS</li>
+</ul>
