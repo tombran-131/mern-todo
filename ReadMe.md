@@ -15,6 +15,8 @@
   - [X] Start server
   - [X] Verify with PostMan
 - [ ] Front-End Prototype
+  - [X] Prototype drawings: see mern-todo.excalidraw
+    - [  ]
 - [ ] Back-End MVP
 - [ ] Front-End MVP
 - [ ] Authentication
