@@ -1,0 +1,28 @@
+{
+  "todo-items": [
+    {
+      "id": 0,
+      "itemName": "Write code",
+      "itemContents": "Wrap up todo app",
+      "fin": false
+    },
+    {
+      "id": 1,
+      "itemName": "Drink tea",
+      "itemContents": "English tea with milk",
+      "fin": true
+    },
+    {
+      "id": 2,
+      "itemName": "Go to bed",
+      "itemContents": "Not too late",
+      "fin": false
+    },
+    {
+      "id": 3,
+      "itemName": "Go for a walk",
+      "itemContents": "Before bed",
+      "fin": false
+    }
+  ]
+}
