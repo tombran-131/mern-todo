@@ -18,7 +18,10 @@
   - [X] Install json-server
   - [X] todo-item object has: {String} itemName, {String} itemContents, {Boolean} fin
   - [X] start json-server, verify it with web browser
-  - [ ] query json-server with postman
+  - [X] query json-server with postman
+    * (fail) json-server does not seem to be playing nice with postman. I'm going
+    to move on from this issue for now.
+    * (pass) the issue with json-server and postman was simply that I can't be having nodemon and json-server running on the same port localhost:3000.
 - [ ] Front-End Prototype
   - [X] Prototype drawings: see mern-todo.excalidraw
   - [ ] Front-end recieves data from back-end prototype
