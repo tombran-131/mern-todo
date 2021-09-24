@@ -17,6 +17,8 @@
 - [X] Back-End Prototype
   - [X] Install json-server
   - [X] todo-item object has: {String} itemName, {String} itemContents, {Boolean} fin
+  - [X] start json-server, verify it with web browser
+  - [ ] query json-server with postman
 - [ ] Front-End Prototype
   - [X] Prototype drawings: see mern-todo.excalidraw
   - [ ] Front-end recieves data from back-end prototype
