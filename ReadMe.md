@@ -14,9 +14,21 @@
         * (likely non-issue) webpack rebuilds for changes in App.jsx, but not for index.html? 
   - [X] Start server
   - [X] Verify with PostMan
+- [X] Back-End Prototype
+  - [X] Install json-server
+  - [X] todo-item object has: {String} itemName, {String} itemContents, {Boolean} fin
 - [ ] Front-End Prototype
   - [X] Prototype drawings: see mern-todo.excalidraw
-    - [  ]
+  - [ ] Front-end recieves data from back-end prototype
+  - [ ] Todo Item card:
+    - [ ] itemName
+    - [ ] itemContents
+    - [ ] finButton will 
+  - [ ] create new item button:
+    - [ ] interactive button
+    - [ ] modal containing new item form
+      - [ ] new item form takes itemName and itemContents
+      - [ ] new item form will POST the object to json-server
 - [ ] Back-End MVP
 - [ ] Front-End MVP
 - [ ] Authentication
