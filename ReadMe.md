@@ -3,8 +3,8 @@
 * A single-page app that allows an authenticated user to create a todo list.
 
 # Objectives & Issues:
-- [ ] Server provides app at LocalHost:3000
-  - [ ] Build with webpack
+- [X] Server provides app at LocalHost:3000
+  - [X] Build with webpack
     - [X] Breaking changes in webpack 5:
         * (pass) reverted to webpack 4.8
     - [X] Webpack builds bundle.js, but is not running in watch mode:
