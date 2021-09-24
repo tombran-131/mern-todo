@@ -5,6 +5,10 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      isLoading: true,
+      todoItems: []
+    };
   }
 
   /**
@@ -14,6 +18,10 @@ class App extends React.Component {
     Axios.get('http://localhost:3000/todo-items')
     .then((res) => {
       console.table(res);
+      this.setState({
+        isLoading: false,
+        todoItems: res
+      });
     })
     .catch((err) => {
       console.log(`Error in App.jsx::App.componentDidMount()`);
@@ -22,7 +30,11 @@ class App extends React.Component {
   }
 
   render() {
-    return (<div><h1>From src/components/app.jsx</h1><h2>Relax</h2></div>);
+    if (this.isLoading) {
+      return (<div><h1>From src/components/app.jsx</h1><h2>Relax</h2></div>);
+    } else {
+      return (<div><h1>From src/components/app.jsx</h1><h2>Loaded</h2></div>);
+    }
   }
 
 }
