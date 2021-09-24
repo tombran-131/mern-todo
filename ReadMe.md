@@ -24,7 +24,7 @@
     * (pass) the issue with json-server and postman was simply that I can't be having nodemon and json-server running on the same port localhost:3000.
 - [ ] Front-End Prototype
   - [X] Prototype drawings: see mern-todo.excalidraw
-  - [ ] Front-end recieves data from back-end prototype
+  - [X] Front-end recieves data from back-end prototype
   - [ ] Todo Item card:
     - [ ] itemName
     - [ ] itemContents
