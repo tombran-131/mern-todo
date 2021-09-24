@@ -28,7 +28,7 @@
   - [ ] Todo Item card:
     - [ ] itemName
     - [ ] itemContents
-    - [ ] finButton will 
+    - [ ] finButton will hide the card
   - [ ] create new item button:
     - [ ] interactive button
     - [ ] modal containing new item form
