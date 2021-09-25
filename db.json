@@ -23,6 +23,13 @@
       "itemName": "Go for a walk",
       "itemContents": "Before bed",
       "fin": false
+    },
+    {
+      "id": 4,
+      "itemName": "Finish this app",
+      "itemContents": "No sweat",
+      "fin": false
     }
+
   ]
 }
