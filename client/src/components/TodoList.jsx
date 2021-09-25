@@ -2,10 +2,10 @@ import React from 'react';
 
 import TodoItem from './TodoItem.jsx';
 
-const TodoList = (props) => (<div>{
+const TodoList = (props) => (<div><ul className={"todo-list"}>{
   props.todoItems.map((itemData, itemId) => 
     (<TodoItem data={itemData} id={itemId} />)
   )
-}</div>);
+}</ul></div>);
 
 module.exports = TodoList;
