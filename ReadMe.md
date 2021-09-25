@@ -34,6 +34,12 @@
     - [ ] modal containing new item form
       - [ ] new item form takes itemName and itemContents
       - [ ] new item form will POST the object to json-server
+      - [ ] modal covers page
+  - [ ] CSS is enough to be apealing
+    - [ ] Blue background
+    - [ ] White cards
+    - [ ] Cards have a dark shadow
+    - [ ] Black text
 - [ ] Back-End MVP
 - [ ] Front-End MVP
 - [ ] Authentication
