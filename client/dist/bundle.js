@@ -202,10 +202,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var TodoItem = function TodoItem(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "todo-item-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "todo-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "todo-item-name"
+  }, props.data.itemName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "todo-item-contents"
+  }, props.data.itemContents)));
 };
 
-module.exports = TodoItem; // test
+module.exports = TodoItem;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
@@ -226,12 +234,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var TodoList = function TodoList(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, props.todoItems.map(function (itemData, itemId) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "todo-list"
+  }, props.todoItems.map(function (itemData, itemId) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TodoItem_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
       data: itemData,
       id: itemId
     });
-  }));
+  })));
 };
 
 module.exports = TodoList;

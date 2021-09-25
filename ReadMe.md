@@ -40,6 +40,11 @@
     - [ ] White cards
     - [ ] Cards have a dark shadow
     - [ ] Black text
+  - [ ] Completed items appear in their own area
+    - [ ] Main todolist does not show completed items
+    - [ ] When the fin button is clicked on some item, it disapears from the main list
+    - [ ] The completed area item appears distinct from the main list
+    - [ ] Completed items can be added back to the main list
 - [ ] Back-End MVP
 - [ ] Front-End MVP
 - [ ] Authentication
